@@ -9,6 +9,7 @@
     <body>
     <div id="wrapper"> 
     <h1>My Top Five Dog Breeds</h1>
+    <!-- "https://www.google.com/url?sa=i&url=https%3A%2F%2Fnara.getarchive.net%2Fmedia%2Fsome-of-the-dogs-rescued-by-chris-and-carla-mancilla-936494&psig=AOvVaw2BMMWM_sJs6qPbL1FGPU9a&ust=1676002883166000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCLj9zLfLh_0CFQAAAAAdAAAAABAD"-->
     <img src="dogimg.jpg" width="450" height="350" alt="logo" class ="centerImage"> 
 
     <p style="color: green">These rankings are my personal preferences </p>
