@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> 
+    <meta name="description" content="Popular Dog Breeds">
+    <meta name="keywords" content="Popular Dog Breeds">
+    <title>Popular Dog Breeds</title>
+    <!-- Title that shows in the browser tab -->
+    <link rel="stylesheet" type="text/css" href="dog.css"/>
+    <!-- link to the  CSS file named "dog.css" -->
+  </head>
+  <body>
+    <div id="wrapper"> 
+      <h1>My Top Five Dog Breeds</h1>
+      <img src="dogimg.jpg" alt="logo" class="centerImage">
+     <h2 class="subtitle"> All dogs are wonderful! </h2>
+      <p class="description">These rankings are my personal preferences </p>
+      <!-- a paragraph that says "These rankings are my personal preferences". The class attribute is set to "description". -->
+      <div>
+        <ol>
+          <li><b class="term">Border Collie</b></li>
+          <li><b class="term">Shiba Inu</b></li>
+          <li><b class="term">Golden Retriever</b></li>
+          <li><b class="term">Corgi</b></li>
+          <li><b class="term">Charles Spaniel</b></li>
+        </ol>
+        <!-- ordered list of dog breeds. class attribute is set to "term" for all breed names. -->
+      </div>
+      <hr>
+      <div>
+        <p>Here's a link to top dog breeds in America</p>
+        <a href="https://www.akc.org/expert-advice/dog-breeds/most-popular-dog-breeds-of-2021/" class="link"> American Kennel Club </a>
+        <!-- link to the American Kennel Club website which shows the top dog breeds in America. The class attribute is set to "link". -->
+      </div>
+      <hr>
+      <div>
+        <p><q>You can usually tell that a man is good if he has a dog who loves him</q> -W. Bruce Cameron</p>
+        <p class="question">What is your favorite dog breed?</p>
+        <input type="text" id="breedInput">
+        <!-- text input field where users can enter their favorite dog breed. The ID attribute is set to "breedInput". -->
+      </div>
+      <hr>
+      <div class="container">
+        <iframe id="videoFrame"
+                title="Inline Frame Example"
+                src="https://www.youtube.com/embed/q_HDd20VvIk">
+        </iframe>
+        <!-- This is an iframe that embeds a YouTube video. The "id" attribute is set to "videoFrame". -->
+  <button class="button">Learn More</button>
+
+      </div>
+    </div>
+  </body>
+</html>
